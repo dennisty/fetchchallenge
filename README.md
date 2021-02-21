@@ -9,15 +9,19 @@
 ```
 git clone https://github.com/dennisty/fetchchallenge.git
 ```
-2. Create a virtual environment
+2. Navigate to the project root directory
+```
+cd fetchchallenge
+```
+3. Create a virtual environment
 ```
 python3 -m venv fetchenv
 ```
-3. Activate the virtual environment
+4. Activate the virtual environment
 ```
 source fetchenv/bin/activate
 ```
-4. Install the required PIP modules
+5. Install the required PIP modules
 ```
 pip install -r requirements.txt
 ```
